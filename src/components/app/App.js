@@ -1,7 +1,8 @@
 import React, { Component, PropTypes } from 'react';
-import Header from "./common/Header";
+import Header from "../common/header/Header";
+import Footer from "../common/footer/Footer";
 
-import '../styles/App.css';
+import './App.css';
 
 
 
@@ -16,6 +17,7 @@ class App extends Component {
       <div className="container">
         <Header />
         {this.props.children}
+        <Footer />
       </div>
     )
   }

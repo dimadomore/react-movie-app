@@ -1,16 +1,16 @@
 import React from 'react';
 
 
-class AboutPage extends React.Component {
+class CelebsPage extends React.Component {
   render() {
     return (
-      <div>
+      <div className="content">
         <h1>Celebs Page</h1>
-        <p>Здесь будет список Celebs</p>
+        <p>Здесь будут звёзды</p>
       </div>
     )
   }
 }
 
 
-export default AboutPage
+export default CelebsPage

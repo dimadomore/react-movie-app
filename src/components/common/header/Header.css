@@ -1,0 +1,31 @@
+.top_header {
+  width: 1440px;
+  max-width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  border-bottom: 1px solid;
+}
+
+.logo {
+	text-transform: uppercase;
+	font-size: 2em;
+	font-weight: 700;
+}
+
+.logo span {
+	font-weight: 300;
+	color: #73e298;
+}
+
+.main_nav {
+	font-size: .9em;
+}
+
+.main_nav .active {
+	color: #8b8b9f;
+	text-decoration: none;
+	margin-left: 1em;
+}
