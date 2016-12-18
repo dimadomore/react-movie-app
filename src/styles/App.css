@@ -1,0 +1,10 @@
+.container {
+    justify-content: center;
+    width: 70%;
+    border: 5px solid;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
